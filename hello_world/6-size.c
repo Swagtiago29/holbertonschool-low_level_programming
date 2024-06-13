@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *Description:  main - size of stuff
+ *Description: main - size of stuff
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -11,5 +11,4 @@ int main(void)
     printf("Size of char: %zu byte\n", sizeof(charType));
    
     return (0);
-
 }
