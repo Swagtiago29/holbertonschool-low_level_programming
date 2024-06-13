@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main print programming is like building a multilinguial puzzle
+ * Description: main -  print programming is like building a multilinguial..
+ * Return: Always 0 (success)
  */
 int main(void)
 {
