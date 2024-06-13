@@ -10,6 +10,5 @@ int main(void)
    printf("Size of longint: %zu byte(s)\n", sizeof(long int));
    printf("Size of longlongint: %zu byte(s)\n", sizeof(long long int));
    printf("Size of float: %zu byte(s)\n", sizeof(float));
-   
     return (0);
 }
