@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- *Description: jua jua descripcion
+ *Description: main - print  jua jua descripcion
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
