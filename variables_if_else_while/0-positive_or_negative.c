@@ -3,11 +3,10 @@
 #include <stdio.h>
 
 /**
- * Main - xs
- *  Return (0)
+ * main - Entry Point
+ * Return: Always 0 (Success)
+ * Description: alguna descripcion coherente
  */
-
-
 
 int main(void)
 {
