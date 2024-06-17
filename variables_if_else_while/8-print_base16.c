@@ -11,12 +11,11 @@ int main(void)
 	char c;
 
 	for (x = 48; x <= 57; x++)
-		putchar(x);	
+		putchar(x);
 	for (c = 97; c <= 102; c++)
-	{	
+	{
 		putchar(c);
 	}
 		putchar('\n');
-	
 	return (0);
 }
