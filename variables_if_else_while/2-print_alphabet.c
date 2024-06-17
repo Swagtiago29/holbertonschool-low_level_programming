@@ -13,5 +13,6 @@ int main(void)
 	{
 	putchar(c);
 	}
+	putchar(30)
 	return (0);
 }
