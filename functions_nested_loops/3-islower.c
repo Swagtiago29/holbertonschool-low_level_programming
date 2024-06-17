@@ -3,7 +3,7 @@
  *  _islower - Entry Point
  * Return: Always 0
  * Description: this is a description
- * c - also c
+ * @c: also c
  */
 int _islower(int c)
 {
