@@ -1,13 +1,14 @@
 #include "main.h"
 /**
- * main - Entry Point
+ *  _islower - Entry Point
  * Return: Always 0
  * Description: this is a description
+ * c - also c
  */
 int _islower(int c)
 {
 	if (c > 'a' && c <= 'z')
 		return (1);
-	else 
+	else
 		return (0);
 }
