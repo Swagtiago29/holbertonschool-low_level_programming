@@ -5,11 +5,10 @@
  * Description: this is a description
  * @p: pp
  */
-int _abs(int)
+int _abs(int p )
 {
-	int p
 	if (p >= '0')
-		return (p)
+		return (p);
 	else 
-		return (-p)
+		return (-p);
 }
