@@ -11,7 +11,7 @@ void print_alphabet(void)
 	int o;
 	for (o = 0; o <= 9; o++)
 	{
-	for (p = 'a'; p <= 'z'; p++)
+	for (p == 'a'; p <= 'z'; p++)
 		_putchar(p);
 	if (p = 'z')
                 _putchar('\n');
