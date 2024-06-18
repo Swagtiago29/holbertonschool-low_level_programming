@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *  _abs - Entry Point
+ * _abs - Entry Point
  * Return: p; -p
  * Description: this is a description
  * @p: pp
