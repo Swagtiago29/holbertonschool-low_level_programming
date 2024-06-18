@@ -6,8 +6,8 @@
  * @c: also c
  */
 int print_last_digit(int l)
+int (lg = l % 10)
 {
-	int (lg = l % 10)
-		_putchar(lg);
+	_putchar(lg);
 		return (lg);
 }
