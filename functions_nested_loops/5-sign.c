@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - Entry Point
- * Return: Always 0
+ * Return: ???
  * Description: this is a description
  * @n: nnn
  */
@@ -17,9 +17,10 @@ int print_sign(int n)
 		_putchar('-');
 		return (-1);
 	}
-	if (n == 0)
+	else
 	{
 		_putchar(0);
 		return (0);
-	}
 }
+}
+
