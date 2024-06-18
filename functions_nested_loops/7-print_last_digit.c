@@ -1,13 +1,14 @@
 #include "main.h"
 /**
- *  _islower - Entry Point
- * Return: Always 0
+ *  print_last_digit - Entry Point
+ * Return: Always lg
  * Description: this is a description
- * @c: also c
+ * @u: also u
  */
 int print_last_digit(int u)
 {
 	int lg = u % 10;
+
 	if (lg < 0)
 		lg = -lg;
 	_putchar(lg + '0');
