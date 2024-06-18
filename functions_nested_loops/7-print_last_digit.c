@@ -5,8 +5,8 @@
  * Description: this is a description
  * @c: also c
  */
-int print_last_digit(int l)
-	int lg = l % 10;
+int print_last_digit(int u)
+	int lg = u % 10;
 {
 	_putchar(lg);
 		return (lg);
