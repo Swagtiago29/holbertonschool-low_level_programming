@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* reset_to_98 - Entry point of my code
+* _puts - Entry point of my code
 *
 * Return: Always 0.
-* @n: jua n
+* @str: jua str
 */
 void _puts(char *str)
 {
