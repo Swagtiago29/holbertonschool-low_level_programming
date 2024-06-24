@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* reset_to_98 - Entry point of my code
+* puts2 - Entry point of my code
 *
 * Return: Always 0.
-* @n: jua n
+* @str: jua jua
 */
 void puts2(char *str)
 {
@@ -13,6 +13,6 @@ void puts2(char *str)
 	for (i = 0; str[i] != '\0'; i += 2)
 	{
 		_putchar(str[i]);
-	}	
+	}
 	_putchar('\n');
 }
