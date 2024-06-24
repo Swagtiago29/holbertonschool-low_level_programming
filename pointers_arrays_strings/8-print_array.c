@@ -9,10 +9,12 @@
 */
 void print_array(int *a, int n)
 {
-	int i
+	int i;
 
-	while (i = 0; i < n; i++)
-		printf (%u, a[n])
-	
-
+	for (i = 0; i < n; i++)
+	{
+		printf ("%u", a[i]);
+	}	
+	printf (", ");
+	printf ("\n");
 }
