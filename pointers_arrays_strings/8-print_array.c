@@ -2,10 +2,11 @@
 #include "stdio.h"
 
 /**
-* reset_to_98 - Entry point of my code
+* print_array - Entry point of my code
 *
 * Return: Always 0.
 * @a: jua a
+* @n: xddddddddddddddddd n
 */
 void print_array(int *a, int n)
 {
@@ -13,9 +14,9 @@ void print_array(int *a, int n)
 
 	for (i = 0; i < n; i++)
 	{
-		printf ("%d", a[i]);
+		printf("%d", a[i]);
 		if (i != (n - 1))
-		printf (", ");
-	}	
-	printf ("\n");
+		printf(", ");
+	}
+	printf("\n");
 }
