@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* reset_to_98 - Entry point of my code
-*
+* rev_string - Entry point of my code
 * Return: Always 0.
-* @n: jua n
+* @s: soz
+*
 */
 void rev_string(char *s)
 {
