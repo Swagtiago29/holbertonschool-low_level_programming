@@ -8,9 +8,9 @@
 */
 void puts_half(char *str)
 {
-	int c, i;
+	int c = 0, i;
 	
-	while ((c = 0) && c >= 0)
+	while (c >= 0)
 	{
 		if (str[c] == '\0')
 			break;	
