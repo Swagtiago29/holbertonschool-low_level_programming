@@ -4,14 +4,16 @@
 * *_strcat - Entry point of my code
 *
 * Return: Always 0.
-* @n: jua n
+* @dest: destino
+* @src: cosa al destino
 */
 char *_strcat(char *dest, char *src)
 {
 	int i, l = 0;
-	
-	for (i = 0; dest[i] != '\0'; i++);
+
+	for (i = 0; dest[i] != '\0'; i++)
+		;
 	for (; src[l] != '\0'; l++)
 		dest[i++] = src[l];
-	return (dest);	
+	return (dest);
 }
