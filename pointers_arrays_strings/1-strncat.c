@@ -6,6 +6,7 @@
 * Return: Always 0.
 * @dest: destino
 * @src: cosa al destino
+* @n: xd
 */
 char *_strncat(char *dest, char *src, int n)
 {
