@@ -1,16 +1,17 @@
 #include "main.h"
 
 /**
-* reset_to_98 - Entry point of my code
+* *_strcat - Entry point of my code
 *
 * Return: Always 0.
 * @n: jua n
 */
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
-	int i, l
-
+	int i, l = 0;
 	
-	
-	return (*dest)		
+	for (i = 0; dest[i] != '\0'; i++)
+		dest[i] = src[l];
+	for (l = 0; src[l] <= '\0'; l++);	
+	return (dest);	
 }
