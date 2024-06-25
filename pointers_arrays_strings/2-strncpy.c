@@ -8,9 +8,13 @@
 */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int o = 0, p = 0;
+	int o = 0, p = 0, l = 0;
 
-	for (; p <= n - 1; p++)
+	for (; 
+	for (; p <= n - ; p++)
+	{
+		l++
 		dest[o++] = src[p];
+	}
 	return (dest);
 }
