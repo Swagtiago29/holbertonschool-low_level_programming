@@ -4,7 +4,7 @@
 * _print_rev_recursion - Entry point of my code
 *
 * Return: Always 0.
-* @n: jua n
+* @s: ssssssss
 */
 void _print_rev_recursion(char *s)
 {
@@ -14,6 +14,5 @@ void _print_rev_recursion(char *s)
 		_print_rev_recursion(s);
 		s--;
 		_putchar(*s);
-		
 	}
 }
