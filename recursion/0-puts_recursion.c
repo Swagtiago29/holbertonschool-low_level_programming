@@ -1,20 +1,19 @@
 #include "main.h"
 
 /**
-* reset_to_98 - Entry point of my code
+* _puts_recursion - Entry point of my code
 *
 * Return: Always 0.
-* @n: jua n
+* @s: bruh.
 */
 void _puts_recursion(char *s)
 {
-	if (*s != '\0')	
+	if (*s != '\0')
 	{
 		_putchar(*s);
 		s++;
 		_puts_recursion(s);
 	}
-	else 
+	else
 		_putchar('\n');
-	return;
 }
