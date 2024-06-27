@@ -2,17 +2,17 @@
 
 /**
 * _puts_recursion - Entry point of my code
-*
 * Return: Always 0.
 * @s: bruh.
 */
 int _strlen_recursion(char *s)
 {
 	if (*s != '\0')
-	{	
+	{
+		s++;
 		return (*s);
-		_puts_recursion(s + 1);		
+		_puts_recursion(s);
 	}
-	else 
+	else
 		return (0);
 }
