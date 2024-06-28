@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _puts_recursion - Entry point of my code
+* _strlen_recursion - Entry point of my code
 * Return: Always 0.
 * @s: bruh.
 */
