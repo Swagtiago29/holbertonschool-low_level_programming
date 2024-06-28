@@ -7,15 +7,15 @@
 */
 int pepinillo(int x)
 {	
-	if (x * x != _sqrt_recursion(x))
-		return (pepinillo(x + 1));
+	if (x >= 0)
+		return (pepinillo(x + 1) * pepinillo(x + 1));
 	else
 	       	return (-1);
 }
 
 int _sqrt_recursion(int n)
 {	
-	if (n >= 0)
+	if (n == pepinillo(n))
 		return (pepinillo(n));
 	else
 		return (-1);
