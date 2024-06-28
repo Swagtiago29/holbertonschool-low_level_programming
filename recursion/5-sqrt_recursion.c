@@ -7,10 +7,8 @@
 */
 int pepinillo(int x)
 {	
-	if (x !=  )
-	{
-		return (pepinillo((x + 1) * (x + 1));
-	}
+	if (x != _sqrt_recursion(x) * _sqrt_recursion(x))
+		return (2);
 	else
 	       	return (-1);
 }
