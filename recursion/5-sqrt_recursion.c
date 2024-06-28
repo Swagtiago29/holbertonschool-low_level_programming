@@ -10,7 +10,7 @@ int pepinillo(int x, int o)
         if (o * o <= x)
 	{
 		
-		return (pepinillo(x, o + 1, res));
+		return (pepinillo(x, o + 1));
 	}	
         else
                 return (-1);
@@ -18,10 +18,10 @@ int pepinillo(int x, int o)
 
 int _sqrt_recursion(int n)
 {
-        int o = 1, res = 0;
+        int o = 1;
 
         if (n >= 0)
-                return (pepinillo(n, o, res));
+                return (pepinillo(n, o));
         else
                 return (-1);
 }
