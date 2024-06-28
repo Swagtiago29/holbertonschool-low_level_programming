@@ -2,7 +2,7 @@
 
 /**
 * _sqrt_recursion - Entry point
-* pepinillo - Function for recursion
+* pepinillo - entry function for recursion
 * Return: o, -1
 * @x: bruh.
 * @o: oooooooooo
