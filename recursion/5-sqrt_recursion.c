@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
-* _strlen_recursion - Entry point of my code
+*  _sqrt_recursion - Entry point
+* pepinillo - recursion
 * Return: Always 0.
-* @s: bruh.
+* @x: bruh.
+* @o: oooooooooo
 */
 int pepinillo(int x, int o)
 {
