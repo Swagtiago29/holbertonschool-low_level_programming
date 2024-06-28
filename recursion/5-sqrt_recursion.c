@@ -8,8 +8,10 @@
 int pepinillo(int x, int o, int res)
 {
         if (res >= x)
+	{
 		res = pepinillo(x, o + 1, res);
 			return (res);
+	}	
         else
                 return (-1);
 }
