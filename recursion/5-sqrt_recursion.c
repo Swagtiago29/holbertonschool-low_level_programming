@@ -8,14 +8,17 @@
 int pepinillo(int x)
 {	
 	if (x >= 0)
-		return (pepinillo(x + 1));
+	{	
+		x * x;
+		return (pepinillo(x - 1));
+	}		
 	else
 	       	return (-1);
 }
 
 int _sqrt_recursion(int n)
 {	
-	if (n == pepinillo(n) * pepinillo(n))
+	if (n >= 0) 
 		return (pepinillo(n));
 	else
 		return (-1);
