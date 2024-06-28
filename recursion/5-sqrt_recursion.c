@@ -19,7 +19,7 @@ int _sqrt_recursion(int n)
 	int x = 1;
 	
 	if (pepinillo(x)  == n)
-		return (pepinillo(x));
+		return (x);
 	else
 		return (-1);
 }
