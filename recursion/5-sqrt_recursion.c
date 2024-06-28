@@ -7,8 +7,9 @@
 */
 int pepinillo(int x, int o, int res)
 {
-        if (res <= x)
+        if (o * o <= x)
 	{
+		
 		res = pepinillo(x, o + 1, res);
 		return (res);
 	}	
