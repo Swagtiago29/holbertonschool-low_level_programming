@@ -9,7 +9,7 @@ int pepinillo(int x, int o)
 {
         if (o * o < x)
 		return (pepinillo(x, o + 1));
-	else if (o * o = x)
+	else if (o * o == x)
 		return (o);
         else
                 return (-1);
