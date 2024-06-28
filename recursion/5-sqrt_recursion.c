@@ -5,21 +5,19 @@
 * Return: Always 0.
 * @s: bruh.
 */
-int pepinillo(int x)
+int pepinillo(int x, int y = 0)
 {	
-		
 	if (x > 0)
-		return (pepinillo(x) * pepinillo(x));
+		if (y == x * x)
+		return (pepinillo(x, y + 1) * pepinillo(x, y + 1));
 	else
 		return (0);
 }
 
 int _sqrt_recursion(int n)
-{
-	int x = 1;
-	
-	if (pepinillo(x)  == n)
-		return (x);
+{	
+	if (pepinillo(n) == n)
+		return (n);
 	else
 		return (-1);
 }
