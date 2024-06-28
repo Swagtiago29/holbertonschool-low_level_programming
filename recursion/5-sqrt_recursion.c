@@ -9,8 +9,8 @@ int pepinillo(int x)
 {	
 	if (x >= 0)
 	{	
-		x * x;
-		return (pepinillo(x - 1));
+		x++; 
+		return (pepinillo(x * x));
 	}		
 	else
 	       	return (-1);
