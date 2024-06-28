@@ -9,10 +9,9 @@ int pepinillo(int x)
 {	
 		
 	if (x > 0)
-	
 		return (pepinillo(x + 1)* pepinillo(x + 1));
 	else
-		return (-1);
+		return (0);
 }
 
 int _sqrt_recursion(int n)
