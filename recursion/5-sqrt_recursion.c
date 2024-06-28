@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-*  _sqrt_recursion - Entry point
+* _sqrt_recursion - Entry point
 * pepinillo - recursion
-* Return: Always 0.
+* Return: o, -1
 * @x: bruh.
 * @o: oooooooooo
 */
