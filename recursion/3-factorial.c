@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
-* _strlen_recursion - Entry point of my code
+* factorial - Entry point of my code
 * Return: Always 0.
-* @s: bruh.
+* @n: bruh.
 */
 int factorial(int n)
 {
 	if (n > 1)
-		return(n * factorial(n - 1));
+		return (n * factorial(n - 1));
 	else if (n == 1)
 		return (1);
 	else
-	       	return (-1);
+		return (-1);
 }
