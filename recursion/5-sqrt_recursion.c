@@ -8,12 +8,12 @@
 int pepinillo(int x)
 {	
 	if (x >= 0)
-	{	
+	{
 		x++; 
 		return (pepinillo(x * x));
-	}		
+	}
 	else
-	       	return (-1);
+	       	return (-99);
 }
 
 int _sqrt_recursion(int n)
