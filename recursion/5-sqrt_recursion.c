@@ -5,13 +5,12 @@
 * Return: Always 0.
 * @s: bruh.
 */
-int pepinillo(int x, int o, int res)
+int pepinillo(int x, int o)
 {
         if (o * o <= x)
 	{
 		
-		res = pepinillo(x, o + 1, res);
-		return (res);
+		return (pepinillo(x, o + 1, res));
 	}	
         else
                 return (-1);
