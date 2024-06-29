@@ -6,7 +6,7 @@
 * @x: bruh.
 * @o: oooooooooo
 * _sqrt_recursion - idfk
-* Return: pepinillinnn
+* return: pepinillinnn
 */
 int pepinillo(int x, int o)
 {
