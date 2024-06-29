@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
-* _sqrt_recursion - Entry point
 * pepinillo - entry function for recursion
 * Return: o, -1
 * @x: bruh.
