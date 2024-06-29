@@ -6,7 +6,7 @@
 * @x: bruh.
 * @o: oooooooooo
 * _sqrt_recursion - entry point
-* 
+* @n: nn
 * return: pepinillinnn
 */
 int pepinillo(int x, int o)
