@@ -2,10 +2,11 @@
 
 /**
 * pepinillo - entry function for recursion
-* Return: o, -1
+* Return: o
 * @x: bruh.
 * @o: oooooooooo
-* _sqrt_recursion - idfk
+* _sqrt_recursion - entry point
+* 
 * return: pepinillinnn
 */
 int pepinillo(int x, int o)
