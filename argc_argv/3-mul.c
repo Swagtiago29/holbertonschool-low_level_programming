@@ -15,8 +15,13 @@ int main(int argc, char *argv[])
 	int p = atoi(argv[2]);
 	
 	if (argc == 3)
+	{
 		printf("%d\n", i * p);
+		return(0);
+	}
 	else if (argc == 2) 
+	{	
 		printf("Error\n");
-	return (0);
+		return(1);
+	}
 }
