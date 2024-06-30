@@ -24,7 +24,7 @@ int primito(int n, int i)
  */
 int is_prime_number(int n)
 {
-	int i = 2;
+	int i =1;
 
 	if (n > 0)
 		return (primito(n, i));
