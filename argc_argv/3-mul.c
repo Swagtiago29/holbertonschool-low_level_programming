@@ -17,13 +17,13 @@ int main(int argc, char *argv[])
 	if (argc == 3)
 	{
 		printf("%d\n", i * p);
-		return(0);
+		return (0);
 	}
 	else if (argc == 2)
 	{
 		printf("Error\n");
-		return(1);
+		return (1);
 	}
 	else
-		return(0);
+		return (0);
 }
