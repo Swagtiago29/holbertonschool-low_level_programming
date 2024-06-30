@@ -11,7 +11,7 @@ int pepinillo(int n, int i)
 {
 	if (n % i != 0)
 		return (primito(n, i + 1));
-	else if (n * 1 == x)
+	else if (n == i)
 		return (1);
 	else
 		return (0);
@@ -26,7 +26,7 @@ int is_prime_number(int n)
 {
 	int i = 2;
 
-	if (n >= 0)
+	if (n > 0)
 		return (primito(n, i));
 	else
 		return (0);
