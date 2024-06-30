@@ -20,7 +20,7 @@ int pepinillo(int x, int o)
 /**
 * _sqrt_recursion - funcion original
 * @n: nn
-* return: pepi
+* return: 0
 */
 int _sqrt_recursion(int n)
 {
