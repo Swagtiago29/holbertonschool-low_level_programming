@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
-* pepinillo - entry function for recursion
-* Return: o
-* @x: bruh.
-* @o: oooooooooo
-* return: pepinillinnn
+* primito - function for recursion
+* Return: 1, 0
+* @n: variable
+* @i: int++
 */
 int primito(int n, int i)
 {
@@ -18,7 +17,7 @@ int primito(int n, int i)
 }
 
 /**
- * _sqrt_recursion - square root of a number
+ * is_prime_number - prime number sorter
  * @n: variable
  * Return: alguna cosa
  */
