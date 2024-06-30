@@ -2,10 +2,11 @@
 #include "main.h"
 
 /**
-* _puts_recursion - Entry point of my code
+* main - Entry point 
 *
 * Return: Always 0.
-* @s: bruh.
+* @argc: int #strings
+* @argv: array de strings
 */
 int main(int argc __attribute__((unused)), char *argv[])
 {
