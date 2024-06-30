@@ -7,7 +7,7 @@
 * @o: oooooooooo
 * return: pepinillinnn
 */
-int pepinillo(int n, int i)
+int primito(int n, int i)
 {
 	if (n % i != 0)
 		return (primito(n, i + 1));
