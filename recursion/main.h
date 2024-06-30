@@ -6,3 +6,4 @@ int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 int pepinillo(int x, int o);
 int is_prime_number(int n);
+int primito(int n, int i);
