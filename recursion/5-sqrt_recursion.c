@@ -19,7 +19,7 @@ int pepinillo(int x, int o)
 
 /**
  * _sqrt_recursion - square root of a number
- * @n: variable 
+ * @n: variable
  * Return: alguna cosa
  */
 int _sqrt_recursion(int n)
