@@ -24,10 +24,12 @@ int primito(int n, int i)
  */
 int is_prime_number(int n)
 {
-	int i =1;
+	int i = 2;
 
 	if (n > 0)
 		return (primito(n, i));
+	else if (n = 1)
+		return (0);
 	else
 		return (0);
 }
