@@ -16,11 +16,10 @@ int main(int argc, char *argv[])
 	
 	for (; i < argc; i++)
 		o += atoi(argv[i]);
-	if (*argv[i] > 57)
-	{
-		printf("Error\n");
-		return (1);
-	}
+		if (atoi(argv[i]) > 57) 
+			printf("Error\n");
+			return (1);
+	
 	else
 	{
 		printf("%d\n", o);
