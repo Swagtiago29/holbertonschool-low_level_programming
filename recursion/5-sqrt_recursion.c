@@ -18,10 +18,10 @@ int pepinillo(int x, int o)
 }
 
 /**
-* _sqrt_recursion - funcion original
-* return: -1
-* @n: variable
-*/
+ * _sqrt_recursion - square root of a number
+ * @n: variable 
+ * Return: alguna cosa
+ */
 int _sqrt_recursion(int n)
 {
 	int o = 1;
