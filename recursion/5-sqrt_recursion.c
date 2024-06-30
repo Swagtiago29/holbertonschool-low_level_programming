@@ -5,8 +5,6 @@
 * Return: o
 * @x: bruh.
 * @o: oooooooooo
-* _sqrt_recursion - entry point
-* @n: nn
 * return: pepinillinnn
 */
 int pepinillo(int x, int o)
@@ -19,6 +17,11 @@ int pepinillo(int x, int o)
 		return (-1);
 }
 
+/**
+* _sqrt_recursion - funcion original
+* @n: nn
+* return: pepi
+*/
 int _sqrt_recursion(int n)
 {
 	int o = 1;
