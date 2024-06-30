@@ -11,8 +11,8 @@
 */
 int main(int argc, char *argv[])
 {
-	int i = atoi(argv[1]);
-	int p = atoi(argv[2]);
+	int i = atoi(argv[argc - 2]);
+	int p = atoi(argv[argc - 1]);
 	
 	if (argc == 3)
 	{
