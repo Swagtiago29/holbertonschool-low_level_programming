@@ -3,11 +3,11 @@
 #include <stdlib.h>
 
 /**
-* main - Entry point
+* create_array - Entry point
 *
 * Return: Always 0.
-* @argc: int #strings
-* @argv: array de strings
+* @size: size of array
+* @c: charrr
 */
 char *create_array(unsigned int size, char c)
 {
@@ -15,15 +15,12 @@ char *create_array(unsigned int size, char c)
 	unsigned int i;
 
 	if (size == 0)
-		return('\0');
-	else
-	{
+		return ('\0');
 		s = malloc(size * sizeof(c));
 		if (s == NULL)
-			return(NULL);
+			return (NULL);
 		for (i = 0; i < size; i++)
 			s[i] = c;
-		return(s);
-			
-	}	
+		return (s);
+	}
 }
