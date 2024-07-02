@@ -9,7 +9,7 @@
 * @argc: int #strings
 * @argv: array de strings
 */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 	char *c;
 	
