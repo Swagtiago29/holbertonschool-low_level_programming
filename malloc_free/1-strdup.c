@@ -3,11 +3,10 @@
 #include <stdlib.h>
 
 /**
-* main - Entry point
+* _strdup - Entry point
 *
 * Return: Always 0.
-* @argc: int #strings
-* @argv: array de strings
+* @str: string given
 */
 char *_strdup(char *str)
 {
@@ -21,7 +20,7 @@ char *_strdup(char *str)
 		i++;
 	cc = malloc((i + 1) * sizeof(char));
 	if (cc == NULL)
-                return (NULL);
+		return (NULL);
 	for (o = 0; str[o] != '\0'; o++)
 		cc[o] = str[o];
 	cc[o] = '\0';
