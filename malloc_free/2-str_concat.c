@@ -12,8 +12,8 @@
 char *str_concat(char *s1, char *s2)
 {
         unsigned int i = 0;
-        unsigned int o;
-        unsigned int p;
+        unsigned int o = 0;
+        unsigned int p = 0;
         unsigned int len = 0;
         char *s3;
 
@@ -35,6 +35,7 @@ char *str_concat(char *s1, char *s2)
         s3 = malloc((len + 1) * sizeof(char));
 	if (s3 == NULL)
 		return (NULL);
+
 	for (p = 0; s1[p] != '\0'; p++)
         {
                 s3[p] = s1[o];
