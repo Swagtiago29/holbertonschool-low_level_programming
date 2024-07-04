@@ -18,10 +18,10 @@ char *str_concat(char *s1, char *s2)
         char *s3;
 
         if (s1 == NULL)
-                *s1 = "";
+                s1 = "";
 
         if (s2 == NULL)
-                *s2 = "";
+                s2 = "";
 
         for (i = 0; *s1 != '\0'; i++)
                 len++;
@@ -42,8 +42,7 @@ char *str_concat(char *s1, char *s2)
                 s3[p] = s2[o];
                 p++;
         }
-        if (*s2 == '\0'
+        if (*s2 == '\0')
                 s3[p] = '\0';
         return (0);
 }
-                                                                                                                                                                                                 1,1           Top
