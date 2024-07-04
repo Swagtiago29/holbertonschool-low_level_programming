@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-* *str_concat - Entry point
+* str_concat - Entry point
 *
 * Return: Always 0.
 * @size: size of array
