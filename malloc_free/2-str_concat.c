@@ -12,9 +12,9 @@
 char *str_concat(char *s1, char *s2)
 {
         unsigned int i = 0;
-        unsigned int o = 0;
+        unsigned int o;
         unsigned int p;
-        unsigned int len;
+        unsigned int len = 0;
         char *s3;
 
         if (s1 == NULL)
@@ -31,8 +31,8 @@ char *str_concat(char *s1, char *s2)
 	i = 0;
         while (s2[i] != '\0')
 	{	
-		i++;
                 len++;
+		i++;
 	}
         s3 = malloc((len + 1) * sizeof(char));
 
