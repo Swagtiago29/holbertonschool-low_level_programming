@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-* create_array - Entry point
+* *str_concat - Entry point
 *
 * Return: Always 0.
 * @size: size of array
@@ -28,7 +28,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	i = 0;
         while (s2[i] != '\0')
-	{	
+	{
   		i++;
   		len++;
 	}
@@ -42,7 +42,7 @@ char *str_concat(char *s1, char *s2)
 		o++;
 	}
         while (s2[p] != '\0')
-	{	
+	{
 		s3[o] = s2[p];
 		p++;
 		o++;
