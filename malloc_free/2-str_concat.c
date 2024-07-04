@@ -25,14 +25,14 @@ char *str_concat(char *s1, char *s2)
 
 	while (s1[i] != '\0')
 	{
-		len++;
 		i++;
+		len++;
 	}
 	i = 0;
         while (s2[i] != '\0')
 	{	
-                len++;
-		i++;
+  		i++;
+  		len++;
 	}
         s3 = malloc((len + 1) * sizeof(char));
 	
