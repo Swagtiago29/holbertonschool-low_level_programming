@@ -12,7 +12,7 @@
 char *str_concat(char *s1, char *s2)
 {
         unsigned int i = 0;
-        unsigned int o;
+        unsigned int o = 0;
         unsigned int len = 0;
         char *s3;
 
@@ -35,8 +35,11 @@ char *str_concat(char *s1, char *s2)
 	if (s3 == NULL)
 		return (NULL);
 
-	for (o = 0; s1[o] != '\0'; o++)
-                s3[o] = s1[o];
+	while (s1[o] != '\0')
+	{
+		s3[o] = s1[o];
+		o++;
+	}
         while (s2[o] != '\0')
 	{	
 		s3[o] = s2[o];
