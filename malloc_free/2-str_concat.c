@@ -44,10 +44,10 @@ char *str_concat(char *s1, char *s2)
         while (s2[p] != '\0')
 	{
 		s3[o] = s2[p];
-		p++;
 		o++;
+		i++;
 	}
         if (s2[p] == '\0')
                 s3[o] = '\0';
-        return (0);
+        return (s3);
 }
