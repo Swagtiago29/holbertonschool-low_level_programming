@@ -35,7 +35,8 @@ char *str_concat(char *s1, char *s2)
   		len++;
 	}
         s3 = malloc((len + 1) * sizeof(char));
-	
+	if (s3 == NULL)
+		return (NULL);
         for (p = 0; *s1 != '\0'; p++)
         {
                 s3[p] = s1[o];
