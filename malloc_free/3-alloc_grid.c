@@ -31,5 +31,5 @@ int **alloc_grid(int width, int height)
             	free(s);
             	return (NULL);
 	}
-	return(s);
+	return(*s);
 }
