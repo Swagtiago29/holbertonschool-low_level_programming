@@ -9,7 +9,7 @@
 * @grid: pointer to grid
 * @height: hight of grid
 */
-void free_grid(int **grid, int height);
+void free_grid(int **grid, int height)
 {
 	int i;
 
