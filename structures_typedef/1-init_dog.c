@@ -8,6 +8,7 @@
  *@name: nombre
  *@owner: due√o
  *@age: edad
+ *@d: struct on dog.h
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
