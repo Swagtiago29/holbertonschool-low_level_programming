@@ -12,6 +12,5 @@
  */
 void print_dog(struct dog *d)
 {
-printf("Name: "%s'\n'"Age: "%.6f'\n'"Owner: "%s'\n', my_dog.name, my_dog.age, my_dog.owner)
-
+printf("Name: "%s'\n'"Age: "%.6f'\n'"Owner: "%s'\n', my_dog.name, my_dog.age, my_dog.owner);
 }
