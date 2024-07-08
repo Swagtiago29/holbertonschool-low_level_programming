@@ -12,5 +12,5 @@
  */
 void print_dog(struct dog *d)
 {
-printf("Name: %s\nAge: %.6f\nOwner: %s\n", my_dog.name, my_dog.age, my_dog.owner);
+printf("Name: %s\nAge: %.6f\nOwner: %s\n", d.name, d.age, d.owner);
 }
