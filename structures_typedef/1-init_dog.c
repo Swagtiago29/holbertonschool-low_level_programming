@@ -3,10 +3,11 @@
 #include <stdlib.h>
 
 /**
- *
- *
- *
- *
+ *init_dog - perris
+ *return: boid
+ *@name: nombre
+ *@owner: due√o
+ *@age: edad
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
