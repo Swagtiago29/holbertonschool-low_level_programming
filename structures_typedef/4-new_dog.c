@@ -17,7 +17,7 @@ dog_t *nuevi_perri;
 nuevi_perri = malloc(sizeof(dog_t));
 if (nuevi_perri == NULL)
 {	
-	free (nuevi_perri);
+	free(nuevi_perri);
 	return(NULL);
 }
 nuevi_perri->name = name;
