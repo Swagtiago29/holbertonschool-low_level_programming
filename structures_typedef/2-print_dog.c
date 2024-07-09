@@ -3,11 +3,8 @@
 #include <stdlib.h>
 
 /**
- *init_dog - perris
+ *print_dog - perris
  *return: boid
- *@name: nombre
- *@owner: dueÃo
- *@age: edad
  *@d: struct on dog.h
  */
 void print_dog(struct dog *d)
