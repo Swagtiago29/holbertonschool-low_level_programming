@@ -20,9 +20,9 @@ if (nuevi_perri == NULL)
 	free (nuevi_perri);
 	return (NULL);
 }
-nuevi_perri->name = malloc(_strlen(name) + 1);
+nuevi_perri->name = malloc((name) + 1);
 nuevi_perri->age = age;
-nuevi_perri->owner = malloc(_strlen(owner) + 1);
+nuevi_perri->owner = malloc((owner) + 1);
 free(nuevi_perri);
 return (nuevi_perri);
 }
