@@ -1,4 +1,4 @@
-#include "main.h"
+#include "dog.h"
 
 /**
 * char *_strncpy - Entry point of my code
