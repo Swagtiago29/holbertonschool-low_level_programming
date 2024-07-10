@@ -23,6 +23,5 @@ if (nuevi_perri == NULL)
 nuevi_perri->name = name;
 nuevi_perri->age = age;
 nuevi_perri->owner = owner;
-free(nuevi_perri);
 return (nuevi_perri);
 }
