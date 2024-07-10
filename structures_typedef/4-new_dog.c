@@ -4,7 +4,7 @@
 
 /**
  *new_dog - perris
- *return: 0 on success
+ *return: Always 0 
  *@name: nombre
  *@owner: dueÃo
  *@age: edad
