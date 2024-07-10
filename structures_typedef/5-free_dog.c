@@ -3,12 +3,10 @@
 #include <stdlib.h>
 
 /**
-* char *_strncpy - Entry point of my code
+* free_dog - Entry point of my code
 *
-* Return: Always 0.
-* @dest: destino
-* @src: string of chars
-* @n: n?
+* Return: void
+* @d: destino
 */
 void free_dog(dog_t *d)
 {
