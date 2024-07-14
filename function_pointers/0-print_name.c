@@ -3,15 +3,15 @@
 #include <stdlib.h>
 
 /**
-* create_array - Entry point
+* print_name - Entry point
 *
-* Return: Always 0.
-* @size: size of array
-* @c: charrr
+* Return: void
+* @f: function to point
+* @name: name to print
 */
 void print_name(char *name, void (*f)(char *))
 {
 	void (*print)(char *) = f;
-	
+
 	print(name);
 }
