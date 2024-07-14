@@ -13,11 +13,12 @@ int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
 	int (*compa)(int) = cmp;
+	int r;
 
 	for (i = 0; i < size; i++)
-		compa(array[i]);
-	if (compa(array[i]) != 0)
-		return (i);
+		r = compa(array[i]);
+		if (r != 0)
+			return (i);
 	else
 		return (-1);
 
