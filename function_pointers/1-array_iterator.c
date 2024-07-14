@@ -3,16 +3,18 @@
 #include <stdlib.h>
 
 /**
-* print_name - Entry point
+*  array_iterator - Entry point
 *
 * Return: void
-* @f: function to point
-* @name: name to print
+* @array: array to pepe
+* @action: thing to do
+* @size:  size of array
 */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	size_t i;
 	void (*pepe)(int) = action;
+
 	for (i = 0; i < size; i++)
 		pepe(array[i]);
 }
