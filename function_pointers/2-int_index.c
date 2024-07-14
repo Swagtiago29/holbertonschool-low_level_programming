@@ -12,10 +12,10 @@
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
-	int (*sea)(int) = cmp;
+	int (*compa)(int) = cmp;
 
 	for (i = 0; i < size; i++)
-		sea(array[i]);
-	return (sea(array[i]));
+		compa(array[i]);
+	return (i);
 
 }
