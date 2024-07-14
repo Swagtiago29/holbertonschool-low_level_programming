@@ -15,7 +15,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 	int (*sea)(int) = cmp;
 
 	for (i = 0; i < size; i++)
-		cmp (array[i]);
+		sea(array[i]);
 	return (array[i]);
 
 }
