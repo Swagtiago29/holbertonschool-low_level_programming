@@ -13,6 +13,7 @@ void print_all(const char * const format, ...)
 	int i = 0;
 	va_list li;
 	va_start(li, format);
+	char *lol;
 
 	while (format != NULL && format[i] != '\0')
 	{
@@ -25,7 +26,7 @@ void print_all(const char * const format, ...)
 				printf("%i, ",va_arg(li, int));
 				break;
 			case 'f':
-				printf("%f, ",va_arg(li, float));
+				printf("%f, ",va_arg(li, double));
 				break;
 			case 's':
 				lol = va_rg(li, char *)
@@ -38,5 +39,5 @@ void print_all(const char * const format, ...)
 		i++;
 	}
 	va_end(li);
-	printf("\n")
+	printf("\n");
 }
