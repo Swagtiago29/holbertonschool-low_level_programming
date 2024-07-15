@@ -3,11 +3,12 @@
 #include <stdlib.h>
 
 /**
-* print_name - Entry point
+* int_index - Entry point
 *
-* Return: void
-* @f: function to point
-* @name: name to print
+* Return: -1, i
+* @array: array to compare
+* @size: selfexplanatory :x
+* @cmp: pointer to function to execute
 */
 int int_index(int *array, int size, int (*cmp)(int))
 {
@@ -21,13 +22,13 @@ int int_index(int *array, int size, int (*cmp)(int))
 		return (-1);
 	if (size < 0)
 		return (-1);
-	else
-		for (i = 0; i < size; i++)
-			{
-			r = compa(array[i]);
-			if (r != 0)
-				return (i);
-			}
+
+	for (i = 0; i < size; i++)
+		{
+		r = compa(array[i]);
+		if (r != 0)
+			return (i);
+		}
 	return (-1);
 
 }
