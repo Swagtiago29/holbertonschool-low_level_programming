@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-* print_numbers - Entry point
+* print_strings - Entry point
 *
 * Return: void
 * @separator: to be printed between int and int
@@ -19,7 +19,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 		{
 		char *ag = va_arg(args, char *);
-		
+
 		if (ag == NULL)
 			printf("(nil)");
 		if (ag != NULL)
