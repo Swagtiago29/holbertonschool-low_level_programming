@@ -3,9 +3,10 @@
 #include <stdlib.h>
 
 /**
-* sum_them_all - Entry point
+* print_numbers - Entry point
 *
-* Return: pp
+* Return: void
+* @separator: to be printed between int and int
 * @n: number of args
 */
 void print_numbers(const char *separator, const unsigned int n, ...)
