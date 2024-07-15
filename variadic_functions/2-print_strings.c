@@ -21,7 +21,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		if (va_arg(args, char *) == NULL)
 			printf("(nil)");
 		if (va_arg(args, char *) != NULL)
-			printf("%s", va_arg(args, char *);
+			printf("%s", va_arg(args, char *));
 		if (separator != NULL && i < n -1)
 			printf("%s%s", va_arg(args, char *), separator);
 		}
