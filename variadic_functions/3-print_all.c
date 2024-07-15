@@ -8,7 +8,7 @@
 * Return: pp
 * @n: number of args
 */
-void print_all(const char * const format, ...);
+void print_all(const char * const format, ...)
 {
 	int i = 0;
 	va_list li;
