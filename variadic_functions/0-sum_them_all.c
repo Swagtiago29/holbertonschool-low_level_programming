@@ -3,11 +3,10 @@
 #include <stdlib.h>
 
 /**
-* print_name - Entry point
+* sum_them_all - Entry point
 *
-* Return: void
-* @f: function to point
-* @name: name to print
+* Return: pp
+* @n: number of args
 */
 int sum_them_all(const unsigned int n, ...)
 {
@@ -19,5 +18,5 @@ int sum_them_all(const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 		p = p + va_arg(args, int);
 	va_end(args);
-	return(p);
+	return (p);
 }
