@@ -1,7 +1,21 @@
 #include <stdio.h>
 #include "lists.h"
-#include "main.h"
 #include <stdlib.h>
+#include<string.h>
+
+/**
+* _strlen - Entry point of my code
+*
+* Return: lenght of array
+* @s: jua s
+*/
+int _strlen(const char *s)
+{
+	int n;
+
+	for (n = 0; s[n] != '\0'; n++);
+	return (n);
+}
 
 /**
  * print_list - listita
@@ -11,21 +25,12 @@
 list_t *add_node(list_t **head, const char *str)
 {
 
-	list_t liston
-
-	while (head != NULL)
-	{
-		i++;
-		if (h->str == NULL)
-		{
-			printf("[0] (nil)\n");
-			h = h->next;
-		}
-		else
-		{
-			printf("[%u] %s\n", h->len, h->str);
-			h = h->next;
-		}
-	}
-	return (i);
+	list_t *new = malloc(sizeof(list_t));
+	if (new == NULL)
+	       return (NULL);
+	new->len = _strlen(str);
+	new->str = strdup(str);
+	new->next = *head;
+	*head = new;
+	return(new);
 }
