@@ -19,7 +19,7 @@ int _strlen(const char *s)
 }
 
 /**
- * add_node - listita
+ * add_node_end - listita
  * Return: new node
  * @head: pointer to head
  * @str: string to dupe
@@ -28,6 +28,7 @@ list_t *add_node_end(list_t **head, const char *str)
 {
 
 	list_t *last = malloc(sizeof(list_t));
+
 	if (last == NULL)
 		return (NULL);
 	last->len = _strlen(str);
@@ -35,9 +36,9 @@ list_t *add_node_end(list_t **head, const char *str)
 	last->next = NULL;
 	if (*head == NULL)
 		*head = last;
-	else 
+	else
 	{
-		while((*head)->next != NULL)
+		while ((*head)->next != NULL)
 			head = &(*head)->next;
 		(*head)->next = last;
 	}
