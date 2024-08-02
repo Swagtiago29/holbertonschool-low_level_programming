@@ -8,16 +8,16 @@
  * Return: number of nodes
  * @h: hhhhhhh
  */
-void free_list(list_t *head);
+void free_list(list_t *head)
 {
-	int i = 0;
+	list_t *i;
 
 	while (head != NULL)
 	{
 		i = head->next;
 		free(head->str);
-		free(head->len);
 		free(head->next);
-		if (head->next == NULL)
-	return ();
+		free(head);
+		head = i;
+	}
 }
