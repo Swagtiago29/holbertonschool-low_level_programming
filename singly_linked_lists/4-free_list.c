@@ -4,9 +4,9 @@
 #include <stdlib.h>
 
 /**
- * print_list - listita
- * Return: number of nodes
- * @h: hhhhhhh
+ * free_list - listita
+ * Return: BOID
+ * @head: cabezona
  */
 void free_list(list_t *head)
 {
