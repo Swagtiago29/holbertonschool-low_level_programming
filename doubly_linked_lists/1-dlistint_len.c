@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * print_dlistint - listita
+ * dlistint_len - listita
  * Return: number of nodes
  * @h: hhhhhhh
  */
