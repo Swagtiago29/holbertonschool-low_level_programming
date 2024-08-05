@@ -3,10 +3,10 @@
 #include <unistd.h>
 
 /**
- * read_textfile - read and write into stdoutput what's been read
- * Return: amount of chars printed
+ * create_file - create file and write text_content
+ * Return: 1
  * @filename: file to read
- * @letters: amount to print
+ * @text_content: thing to write into file
  */
 int create_file(const char *filename, char *text_content)
 {
@@ -20,6 +20,6 @@ int create_file(const char *filename, char *text_content)
 	w = write(fd, text_content, strlen(text_content));
 	if (w == -1)
 		return (-1);
-	close (fd);
+	close(fd);
 	return (1);
-}	
+}
